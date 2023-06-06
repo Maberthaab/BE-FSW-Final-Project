@@ -16,8 +16,7 @@ module.exports = (sequelize, DataTypes) => {
       });
     }
   }
-    }
-  }
+   
   orders.init({
     id_pesanan: DataTypes.INTEGER,
     id_user: DataTypes.INTEGER,
