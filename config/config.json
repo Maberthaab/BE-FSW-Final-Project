@@ -1,22 +1,22 @@
 {
   "development": {
-    "username": "irfanchoiruddin",
-    "password": "irfanchoiruddin123",
-    "database": "flight-binar",
+    "username": "postgres",
+    "password": "151312",
+    "database": "tiket-flight",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
     "password": "151312",
-    "database": "flight-binar_test",
+    "database": "tiket-flight_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
     "username": "postgres",
     "password": "151312",
-    "database": "flight-binar_production",
+    "database": "tiket-flight_production",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }
