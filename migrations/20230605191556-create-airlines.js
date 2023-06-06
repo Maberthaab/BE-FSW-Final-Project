@@ -7,8 +7,14 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
+<<<<<<< HEAD
         type: Sequelize.INTEGER,
       },
+=======
+        type: Sequelize.INTEGER
+      },
+     
+>>>>>>> 267039e36f9728590ead76ebf4f4ab96b68d3664
       nama_maskapai: {
         type: Sequelize.STRING,
       },
