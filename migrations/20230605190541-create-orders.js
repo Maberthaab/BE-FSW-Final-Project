@@ -7,37 +7,34 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
-      },
-      id_pesanan: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       id_user: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       id_penerbangan: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       tanggal_pesan: {
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
       },
       jumlah_penumpang: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       total_tiket: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+      },
     });
   },
   async down(queryInterface, Sequelize) {
     await queryInterface.dropTable('orders');
-  }
+  },
 };

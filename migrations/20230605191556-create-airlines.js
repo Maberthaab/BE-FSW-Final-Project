@@ -7,34 +7,31 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
-      },
-      id: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       nama_maskapai: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       kode_maskapai: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       tipe_maskapai: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       harga_tiket: {
-        type: Sequelize.FLOAT
+        type: Sequelize.FLOAT,
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+      },
     });
   },
   async down(queryInterface, Sequelize) {
     await queryInterface.dropTable('airlines');
-  }
+  },
 };
